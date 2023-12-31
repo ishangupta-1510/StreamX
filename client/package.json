@@ -7,11 +7,13 @@
     "dev": "vite",
     "build": "vite build",
     "lint": "eslint . --ext js,jsx --report-unused-disable-directives --max-warnings 0",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "proxy": "node src/setupProxy.js"
   },
   "dependencies": {
     "axios": "^1.6.3",
     "bootstrap": "^5.3.2",
+    "cors": "^2.8.5",
     "express": "^4.18.2",
     "formik": "^2.4.5",
     "mongoose": "^8.0.3",
