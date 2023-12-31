@@ -13,12 +13,12 @@ const validationSchema = Yup.object().shape({
 const Login = () => {
   return (
     <div className="bg-[url('Home_Back.jpeg')] h-screen relative">
-      <div className="bg-black h-full w-full opacity-10 absolute"></div>
-      <div className="bg-[url('StreamX.svg')] bg-no-repeat h-full w-full fixed top-5 left-10"></div>
+      <div className="bg-black h-full w-full md:opacity-10 absolute"></div>
+      <div className="bg-[url('StreamX.svg')] bg-no-repeat h-full w-full fixed mt-5 ml-10"></div>
       <div className="flex items-center h-screen justify-center">
-        <div className=" h-[600px] w-[450px] absolute">
-          <div className="bg-black h-full opacity-70 absolute w-full rounded-md"></div>
-          <div className="text-white relative h-full px-16 py-16 top-0">
+        <div className="h-full w-full md:h-[600px] md:w-[450px] absolute">
+          <div className="md:bg-black h-full md:opacity-70 absolute w-full rounded-md"></div>
+          <div className="text-white flex flex-col justify-center relative h-full px-16 py-16 top-0">
             <h1 className="text-4xl font-bold relative">Sign In</h1>
             <div className="pt-10">
               <Formik
